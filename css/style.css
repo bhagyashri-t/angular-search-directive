@@ -77,12 +77,15 @@ ul.searchDataList {
 	border: none;
 }
 
-.homeDataList, .homeDiv.searchDirDiv {
+.homeDataList, .homeDiv .searchDirDiv {
 	display: inline-block;
 	vertical-align: top;
-	width: 60%;
+	width: 40%;
 	margin: none;
 	text-align: center;
+}
+.homeDiv .searchDirDiv {
+	width: 30%;
 }
 
 .homeDataList .table {
@@ -91,4 +94,8 @@ ul.searchDataList {
 	vertical-align: top;
 	width: 20%;
 	text-align: center;
+}
+
+@media screen and (max-width: 435px) {
+	
 }
