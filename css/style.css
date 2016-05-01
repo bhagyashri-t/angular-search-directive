@@ -96,6 +96,45 @@ ul.searchDataList {
 	text-align: center;
 }
 
-@media screen and (max-width: 435px) {
-	
+/*@media screen and (max-width: 435px) {
+	.homeDataList .table {
+		display: block;
+		width: 90%;
+		text-align: center;
+	}
+	.homeDataList, .homeDiv .searchDirDiv {
+		display: block;
+		width: 90%;
+		text-align: center;
+	}
+	.searchDirDiv, .table {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		text-align: center;
+		margin-left: 3%;
+	}
+}*/
+
+@media screen and (max-width: 736px) {
+	table, th, tr, td, .homeDiv {
+		text-align: center;
+	}
+
+	.homeDataList .table, .table {
+		display: block;
+		width: 70%;
+		text-align: center;
+		margin-left: 40%;
+	}
+	.homeDataList, .homeDiv .searchDirDiv {
+		display: block;
+		width: 90%;
+		text-align: center;
+	}
+	.searchDirDiv, .table {
+		display: block;
+		width: 90%;
+		text-align: center;
+	}
 }
