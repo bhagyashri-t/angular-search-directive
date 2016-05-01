@@ -1,0 +1,23 @@
+
+<!-- <search-header></search-header> -->
+
+<div class="actorsDiv">
+
+	<br>
+	<div class="searchDirDiv">
+		<h4>Search for Actors</h4>
+		<search-for search-data-arr="searchData"></search-for>
+	</div>
+	<table class="table">
+		<thead>
+			<tr><th>Actors</th></tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="actor in actors">
+				<td>{{actor}}</td>
+			</tr>
+		</tbody>		
+	</table>
+	
+
+</div>

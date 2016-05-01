@@ -1,0 +1,8 @@
+<div class="searchDiv">
+	<input id="searchInput" type="search" placeholder="Search here" ng-model="searchText" ng-change="inputChanged()">
+	<ul class="searchDataList">
+		<li ng-repeat="item in searchData | filter: searchText">
+			{{item}}
+		</li>
+	</ul>
+</div>

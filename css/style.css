@@ -1,0 +1,94 @@
+
+header {
+	text-align: center;
+}
+h4 {
+	margin: 3%;
+	width: 90%;
+}
+ul {
+	list-style-type: none;
+}
+ th, tr, td {
+	text-align: left;
+	border: none;
+}
+.navtabs {
+	margin: 2%;
+	color: #1a53ff;
+}
+.navtabs li {
+	display: inline;
+	font-size: 20px;
+	padding: 1%;
+	margin: 1%;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.navtabs li:hover{
+	background-color: #ffccd9;
+	color: #fff;
+}
+
+.activeTab {
+	background-color: #cc0033;
+	color: #fff;
+}
+.activeTab a {
+	color: #fff;
+}
+.homeDiv, .actorsDiv, .moviesDiv {
+	text-align: center;
+	margin-top: 3%;
+}
+.searchDiv {
+	margin: none;
+}
+#searchInput {
+	font-size: 20px;
+	padding: 1%;
+	margin-bottom: 0px;
+	border: 1px solid #cccccc;
+	outline: none;
+	border-radius: 5px;
+	width: 90%;
+}
+
+ul.searchDataList {
+	font-size: 20px;
+	width: 90%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	border-top: none;
+	padding: 1%;
+	margin: auto;
+	text-align: center;
+	display: none;
+}
+
+.searchDirDiv, .table {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	text-align: center;
+	margin-left: 3%;
+}
+.table tbody tr td, .table thead tr th {
+	border: none;
+}
+
+.homeDataList, .homeDiv.searchDirDiv {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	margin: none;
+	text-align: center;
+}
+
+.homeDataList .table {
+	margin: none; 
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	text-align: center;
+}

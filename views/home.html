@@ -1,0 +1,45 @@
+
+<!-- <search-header></search-header> -->
+
+<div class="homeDiv">
+
+	<br>
+	<div class="searchDirDiv">
+		<h4>Search for Actors, Movies or Directors</h4>
+		<search-for search-data-arr="searchData"></search-for>
+	</div>
+	
+	<div class="homeDataList">
+		<table class="table">
+			<thead>
+				<tr><th>Actors</th></tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="actor in actors">
+					<td>{{actor}}</td>
+				</tr>
+			</tbody>		
+		</table>
+		<table class="table">
+			<thead>
+				<tr><th>Movies</th></tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="movie in movies">
+					<td>{{movie}}</td>
+				</tr>
+			</tbody>		
+		</table>
+		<table class="table">
+			<thead>
+				<tr><th>Directors</th></tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="director in directors">
+					<td>{{director}}</td>
+				</tr>
+			</tbody>		
+		</table>
+	</div>
+	
+</div>

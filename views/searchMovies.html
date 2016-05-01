@@ -1,0 +1,21 @@
+
+<div class="moviesDiv">
+	
+	<br>
+	<div class="searchDirDiv">
+		<h4>Search for Movies</h4>
+		<search-for search-data-arr="searchData"></search-for>
+	</div>
+	
+	<table class="table">
+		<thead>
+			<tr><th>Movies</th></tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="movie in movies">
+				<td>{{movie}}</td>
+			</tr>
+		</tbody>		
+	</table>
+	
+</div>
